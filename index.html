@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    h1{
+        background-color: aliceblue;
+    }
+    body{
+        background-color: rgb(206, 162, 162);
+        background-image:url(bg.jpg);
+    }
+    table{
+        background-color: hsla(0, 3%, 23%, 0.5);
+        color: aliceblue;
+    }
+    fieldset{
+        background-color: rgba(216, 187, 187, 0.5);
+        
+    }
+    legend{
+        color: aliceblue;
+    }
+    footer{
+        color: aliceblue;
+    }
+  </style>
+</head>
+<body>
+    <h1>My Portfolio </h1>
+    <br>
+    <img src="ad.jpeg" alt="image">
+    <br>
+    <br>
+    <fieldset>
+        <p>Welcome everyone, Myself aspiring web developer
+            with a baic knowledge of HTML and css and trying to deep dive
+            in web dev using MERN stack . Currently pursuing B.Tech in Cybersecurity
+            at <b>VIT Chennai</b>.
+        </p>
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend><b><h2>Personal information</h2></b></legend>
+        <br>
+        <ul><b>Name:</b>Adarsh kumar mishra</ul>
+        <ul><b>Phone:</b>80924xxxxx</ul>
+        <ul><b>Profession:</b>Student</ul>
+        <ul><b>Address:</b> Chennai,India</ul>
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend><b><h2>Education Details</h2></b></legend>
+        <br>
+        <table border="1">
+            <thead>
+                <th>Degree</th>
+                <th>Year of passing</th>
+                <th>Percentage/CGPA</th>
+            </thead>
+            <tr>
+                <td >B.tech(Cybersecurity)</td>
+                <td colspan="2">2024-2028</td>
+            </tr>
+            <tr>
+                <td>AISSCE</td>
+                <td>2023</td>
+                <td>93.4%</td>
+            </tr>
+            <tr>
+                <td>CISCE</td>
+                <td>2021</td>
+                <td>92.4%</td>
+            </tr>
+        </table>
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend><h2>Skills</h2></legend>
+        <br>
+        <h3>Technical</h3>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JAVA</li>
+        <li>Python</li>
+        <li>MySQL</li>
+        <li>C/C++</li>
+        <br>
+        <h3>Non-Technical</h3>
+        <li>Sketching</li>
+        <li>Good Communication skills</li>
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>
+            <h2>Contact Me</h2>
+        </legend>
+        <br>
+        <li><a href="www.linkedin.com">Linked in</a></li>
+        <li><a href="www.instagram.com">Instagram</a></li>
+        <li><a href="www.facebook.com">Facebook</a></li>
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend><h2>Review</h2></legend>
+        <br>
+        <h3>Give your reviews</h3>
+        <br>
+        <form >
+            <label for="Name">Enter Your Name :</label>
+            <input type="text" id="Name">
+            <br>
+            <br>
+            <label for="phone">Enter your phone number :</label>
+            <input type="text" id="phone">
+            <br>
+            <br>
+            <label for="DOB">Date of birth :</label>
+            <input type="date" id="DOB">
+            <br>
+            <br>
+            <label for="review">Enter your reviews:</label>
+            <br>
+            <textarea name="Review" id="review" cols="30" rows="10" placeholder="Enter your text here"></textarea>
+            <br>
+            <button><b>SUBMIT</b></button>
+        </form>
+    </fieldset>
+    <footer>
+        <h3>2024 Portfolio</h3>
+    </footer>
+</body>
+</html>
